@@ -33,6 +33,8 @@ function BotDetails({ bots, handleAddToArmy,deleteBot }) {
       <h3>{bot.name}</h3>
       <p>Class: {bot.bot_class}</p>
       <p>{bot.catchphrase}</p>
+      <p>Time Created:{bot.created_at}</p>
+      <p>Time Updated: {bot.updated_at}</p>
       <p>❤️: {bot.health}</p>
       <p>💀: {bot.damage}</p>
       <p>Armor: {bot.armor}</p>
